@@ -37,10 +37,20 @@
   }
 }
 .cards{
-  display: grid;
+  /* display: grid;
   column-gap: 50px;
+  grid-template-columns: repeat(4, 1fr); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px;
 
-
+}
+.Container{
+  /* width: 150px;
+  height: 200px; */
+  border:1px solid gray ;
+  /* box-shadow: gray; */
+  margin: 10px;
 }
 .image-container{
 
